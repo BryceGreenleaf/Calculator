@@ -67,7 +67,11 @@ namespace Calculator
 
         private void DotBut_Click(object sender, EventArgs e)
         {
-            Output.Text += ".";
+            int len = Output.Text.Length;
+            if (Output.Text[--len] != '.') 
+            {
+                Output.Text += ".";
+            }
         }
     }
 }
