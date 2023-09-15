@@ -88,6 +88,7 @@
             this.Sum.TabIndex = 18;
             this.Sum.Text = "Sum";
             this.Sum.UseVisualStyleBackColor = true;
+            this.Sum.Click += new System.EventHandler(this.Sum_Click);
             // 
             // Num7
             // 
@@ -127,6 +128,7 @@
             this.Pow.TabIndex = 16;
             this.Pow.Text = "Pow 2";
             this.Pow.UseVisualStyleBackColor = true;
+            this.Pow.Click += new System.EventHandler(this.Pow_Click);
             // 
             // SQRT
             // 
@@ -136,6 +138,7 @@
             this.SQRT.TabIndex = 17;
             this.SQRT.Text = "SQRT";
             this.SQRT.UseVisualStyleBackColor = true;
+            this.SQRT.Click += new System.EventHandler(this.SQRT_Click);
             // 
             // Num4
             // 
