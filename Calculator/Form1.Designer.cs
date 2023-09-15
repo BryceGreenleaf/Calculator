@@ -78,6 +78,7 @@
             this.ClearBut.TabIndex = 19;
             this.ClearBut.Text = "Clear";
             this.ClearBut.UseVisualStyleBackColor = true;
+            this.ClearBut.Click += new System.EventHandler(this.ClearBut_Click);
             // 
             // Sum
             // 
@@ -174,6 +175,7 @@
             this.SumBut.TabIndex = 14;
             this.SumBut.Text = "+";
             this.SumBut.UseVisualStyleBackColor = true;
+            this.SumBut.Click += new System.EventHandler(this.SumBut_Click);
             // 
             // MinBut
             // 
@@ -183,6 +185,7 @@
             this.MinBut.TabIndex = 15;
             this.MinBut.Text = "-";
             this.MinBut.UseVisualStyleBackColor = true;
+            this.MinBut.Click += new System.EventHandler(this.MinBut_Click);
             // 
             // Num1
             // 
@@ -222,6 +225,7 @@
             this.MulBut.TabIndex = 12;
             this.MulBut.Text = "*";
             this.MulBut.UseVisualStyleBackColor = true;
+            this.MulBut.Click += new System.EventHandler(this.MulBut_Click);
             // 
             // DivBut
             // 
@@ -231,6 +235,7 @@
             this.DivBut.TabIndex = 13;
             this.DivBut.Text = "/";
             this.DivBut.UseVisualStyleBackColor = true;
+            this.DivBut.Click += new System.EventHandler(this.DivBut_Click);
             // 
             // Output
             // 

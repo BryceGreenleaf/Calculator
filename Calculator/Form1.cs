@@ -73,5 +73,30 @@ namespace Calculator
                 Output.Text += ".";
             }
         }
+
+        private void ClearBut_Click(object sender, EventArgs e)
+        {
+            Output.Text = "";
+        }
+
+        private void SumBut_Click(object sender, EventArgs e)
+        {
+            Output.Text += "+";
+        }
+
+        private void MinBut_Click(object sender, EventArgs e)
+        {
+            Output.Text += "-";
+        }
+
+        private void MulBut_Click(object sender, EventArgs e)
+        {
+            Output.Text += "*";
+        }
+
+        private void DivBut_Click(object sender, EventArgs e)
+        {
+            Output.Text += "/";
+        }
     }
 }
